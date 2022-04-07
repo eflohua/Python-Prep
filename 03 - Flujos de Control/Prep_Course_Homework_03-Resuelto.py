@@ -79,21 +79,17 @@ if (type(n) == int):
         print('La variable no es mayor a cero')
 else:
     print('La variable no es un entero')
-    
-
 
 # 7) Crear un ciclo for dentro de un ciclo while
 
 # In[38]:
 
-
 n = 0
 while(n < 5):
-    n += 1
-    for i in range(1,n):
+    n += 1 # n=1,2,3,4,5
+    for i in range(1,n): #
         print('Ciclo while nro ' + str(n))
         print('Ciclo for nro ' + str(i))
-
 
 # 8) Crear un ciclo while dentro de un ciclo for
 
@@ -103,9 +99,9 @@ while(n < 5):
 n = 5
 for i in range(1, n):
     while(n < 5):
-        n -= 1
-        print('Ciclo while nro ' + str(n))
-        print('Ciclo for nro ' + str(i))
+        n -= 1 #4
+        print('Ciclo while nro ' + str(n))#4
+        print('Ciclo for nro ' + str(i))#1
 
 
 # 9) Imprimir los números primos existentes entre 0 y 30
@@ -244,7 +240,8 @@ while(n <= 300):
     print(n, ' es divisible por 12')
 
 
-# 14) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
+# 14) Utilizar la función **input()** que permite hacer ingresos por teclado,
+#  para encontrar números primos y dar la opción al usario de buscar el siguiente
 
 # In[73]:
 

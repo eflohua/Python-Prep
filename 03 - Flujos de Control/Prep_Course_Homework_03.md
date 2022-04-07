@@ -2,6 +2,7 @@
 
 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla si es mayor o menor a cero
 
+
 2) Crear dos variables y un condicional que informe si son del mismo tipo de dato
 
 3) Para los valores enteros del 1 al 20, imprimir por pantalla si es par o impar

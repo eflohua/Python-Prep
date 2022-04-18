@@ -22,6 +22,7 @@ def Factorial(numero):
         numero -= 1
     return factorial
 
+
 def EsPrimo(valor):
     '''
     Esta función devuelve el valor booleano True si el número reibido como parámetro es primo, de lo 
@@ -70,5 +71,5 @@ def ClaseAnimal(especie, color):
             self.Edad += 1
             return self.Edad
     
-    a = Animal(especie, color)    
+    a = Animal('gato', 'blanco')    
     return a
